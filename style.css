@@ -160,3 +160,14 @@ border-left: 50px solid #37383a;
 .srjWorkingTable tr:hover{
     background: #6abee0;
 }
+#srjGallery #aniimated-thumbnials a{
+float: left;
+width: 25%;
+height: 250px;
+padding:12px 0px 0px 12px;
+}
+#srjGallery #aniimated-thumbnials img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
