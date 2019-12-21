@@ -1,9 +1,20 @@
 @media screen and (max-width: 768px){
+    #srjPrimaryMenu .navbar-brand{
+        max-width: 50%;
+    }
     #srjGallery #aniimated-thumbnials a{
         width: 50%;
         height: 180px;
     }
     #srjNews-update{
         border-left: 0px solid red;
+    }
+}
+
+@media screen and (max-width:991px){
+    #srjIntro h4 {
+        border-left: 0px;
+        font-size: 1em;
+        text-align: justify;
     }
 }
