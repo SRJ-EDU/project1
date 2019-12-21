@@ -3,4 +3,7 @@
         width: 50%;
         height: 180px;
     }
+    #srjNews-update{
+        border-left: 0px solid red;
+    }
 }
