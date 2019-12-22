@@ -158,7 +158,10 @@ border-left: 50px solid #37383a;
 
 }
 .srjWorkingTable tr:hover{
-    background: #6abee0;
+    background: #fff;
+}
+#srjGallery{
+    padding: 0px 0px 60px 0px;
 }
 #srjGallery #aniimated-thumbnials a{
 float: left;
@@ -170,4 +173,18 @@ padding:12px 0px 0px 12px;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+#srjOurLocation {
+    background:#ffffff;
+    padding: 50px 0px;
+}
+#srjFooter{
+    clear: both;
+    background: #333;
+    padding: 60px 0px;
+}
+#srjCopyright{
+    background: #ffffff;
+color: #333;
+    padding-top:2vh;
 }
