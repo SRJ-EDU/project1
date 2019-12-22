@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 /* 
+logo color: orange:#ff8c24 red: #dc3c3a
 font-family: 'Poppins', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Montserrat', sans-serif;
@@ -15,7 +16,12 @@ font-family: 'Roboto', sans-serif;
 body{
     background: #eeeeee;
 }
-
+.srjBrandO{
+    color: #ff8c24;
+}
+.srjBrandR{
+    color: #dc3c3a;
+}
 .fa-facebook-f:hover{
     color:#3b5998;
     }
@@ -129,6 +135,15 @@ border-left: 50px solid #37383a;
     padding: 50px 0px;
     background:#ffffff;
     
+}
+.srjTitleUnderline{
+     background-image: url(assets/images/title-underline.png);
+     width: 100%;
+    height: 30px;
+    margin-top: 2vh;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 #srjCourses .card{
     box-shadow: 0px 4px 11px #333;
