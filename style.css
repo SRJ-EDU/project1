@@ -22,6 +22,10 @@ body{
 .srjBrandR{
     color: #dc3c3a;
 }
+.srjFlatBtn{
+border-radius: 0px;
+border:none;
+}
 .fa-facebook-f:hover{
     color:#3b5998;
     }
@@ -202,4 +206,18 @@ padding:12px 0px 0px 12px;
     background: #ffffff;
 color: #333;
     padding-top:2vh;
+}
+
+
+/* 
+contact Page Design
+
+*/
+#srjContactEndBox{
+    background-color: #dc3c3a;
+    height: 70px;
+
+}
+#srjContactEndBox h4{
+    line-height: 70px;
 }
