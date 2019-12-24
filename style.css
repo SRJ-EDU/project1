@@ -22,6 +22,15 @@ body{
 .srjBrandR{
     color: #dc3c3a;
 }
+.btn {
+    background: #dc3c3a;
+    border:0px none;
+}
+.btn:hover{
+    background:#ff8c24;
+    transition: 0.5s ease-in;
+}
+#lg-download{ display: none;}
 .srjFlatBtn{
 border-radius: 0px;
 border:none;
@@ -57,6 +66,21 @@ border:none;
     background-color: #ffffff;
     padding: 7px;
     background-attachment: fixed;
+}
+#srjPrimaryMenu .navbar-nav a{
+    border-bottom: 4px solid #fff;
+    border-top: 2px solid #fff;
+    border-radius: 50%;
+}#srjPrimaryMenu .navbar-nav li{
+    margin-left: 8px;
+    padding:2px 0px;
+}
+
+#srjPrimaryMenu .navbar-nav a:hover{
+    border-top: 2px solid #dc3c3a;
+    border-bottom: 4px solid #dc3c3a;
+    transition: 0.9s ease-out;
+    color: #ff8c24;
 }
 #srjPrimaryMenu a{
     color: #333333;
@@ -180,13 +204,13 @@ border-left: 50px solid #37383a;
     background: #fff;
 }
 #srjGallery{
-    padding: 0px 0px 60px 0px;
+ padding-bottom: 60px;
 }
 #srjGallery #aniimated-thumbnials a{
 float: left;
 width: 25%;
 height: 250px;
-padding:12px 0px 0px 12px;
+padding:8px;
 }
 #srjGallery #aniimated-thumbnials img{
     width: 100%;
